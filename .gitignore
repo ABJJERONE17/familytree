@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+media/people/
+.idea/
+.env
+.env.local
+.vercel/
+staticfiles/

@@ -1,0 +1,6 @@
+Django>=5.2,<6.0
+Pillow>=10.0
+# PostgreSQL driver (used on Vercel; harmless on your computer)
+psycopg[binary]>=3.2
+# Photo uploads to an S3-compatible bucket (used on Vercel)
+django-storages[s3]>=1.14
